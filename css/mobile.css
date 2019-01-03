@@ -1,0 +1,35 @@
+* {
+	box-sizing: border-box;
+}
+body{
+	background: #454545;
+	line-height: 2;
+}
+a {
+	text-decoration: none;
+}
+a, body{
+	color: #eee;
+}
+.side-bar {
+	text-align: center;
+	position: relative;
+	width: 100%;
+}
+.main {
+	padding-left: 5px;
+	padding-right: 5px;
+	width: 100%;
+}
+.article-list {
+	margin-right: 0;
+}
+.nav,
+.box,
+.list {
+	display: none;
+}
+#menu:checked ~ .nav,
+#menu:checked ~ .list {
+	display: block;
+}
